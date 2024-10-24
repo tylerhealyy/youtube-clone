@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-header">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-header">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search.svg">
+          <div class="tooltip">Voice Search</div>
+        </button>
+      </div>
+      <div class="right-header">
+        <div class="create">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps">
+          <img class="youtube-apps" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="user-pfp" src="channel-pfps/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-section">
+        <img src="icons/home.svg">
+        Home
+      </div>
+      <div class="sidebar-section">
+        <img src="icons/explore.svg">
+        Explore
+      </div>
+      <div class="sidebar-section">
+        <img src="icons/subscriptions.svg">
+        Subscriptions
+      </div>
+      <div class="sidebar-section">
+        <img src="icons/originals.svg">
+        Originals
+      </div>
+      <div class="sidebar-section">
+        <img src="icons/youtube-music.svg">
+        YouTube Music
+      </div>
+      <div class="sidebar-section">
+        <img src="icons/library.svg">
+        Library
+      </div>
+    </nav>
+
+    <main class="video-grid">
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail1.jpg">
+          <div class="video-time">1:34:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              3 Pro Golfers Play Easiest Course in Oklahoma
+            </p>
+            <p class="video-author">
+              Good Good <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              30K views &#183; 2 hours ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail2.jpg">
+          <div class="video-time">14:11</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              I Tried To Predict The Eastern Conference Standings
+            </p>
+            <p class="video-author">
+              Kenny For Real <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              31K views &#183; 3 hours ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail3.jpg">
+          <div class="video-time">27:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What Was The Oldest Human Face Ever Recorded?
+            </p>
+            <p class="video-author">
+              Joe Scott <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              82K views &#183; 7 hours ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail4.jpg">
+          <div class="video-time">12:02</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              We May Have Underestimated the Dangers of Red Dwarf Solar Flares
+            </p>
+            <p class="video-author">
+              Anton Petrov <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              63K views &#183; 23 hours ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail5.jpg">
+          <div class="video-time">11:59</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dan Ige challenges Nina Drama on the punch machine & teaches her fighting techniques | UFC 308
+            </p>
+            <p class="video-author">
+              Nina Drama <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              32K views &#183; 1 day ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail6.jpg">
+          <div class="video-time">1:34:26</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp-div">
+            <img class="channel-pfp" src="channel-pfps/pfp6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              SIDEMEN FOOD TRUCK ROAD TRIP
+            </p>
+            <p class="video-author">
+              Sidemen <span>
+                <svg class="verified-badge" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit;">
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                  </path>
+                </svg>
+              </span>
+            </p>
+            <p class="video-stats">
+              4.6M views &#183; 1 day ago
+            </p>
+          </div>
+          <div class="video-options-button">
+            <button class="options-button">&vellip;</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
